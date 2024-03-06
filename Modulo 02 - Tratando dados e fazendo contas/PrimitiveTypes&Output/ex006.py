@@ -4,5 +4,5 @@ numero = int(input('Digite um número: '))
 dobro = numero * 2
 triplo = numero * 3
 raizQuadrada = numero ** (1 / 2)
-print('O dobro de {} é {}, o triplo dele é {}, e sua raiz quadrada é {:.3f}'
+print('O dobro de {} é {}, o triplo dele é {}, e sua raiz quadrada é {:.2f}'
       .format(numero, dobro, triplo, raizQuadrada))
