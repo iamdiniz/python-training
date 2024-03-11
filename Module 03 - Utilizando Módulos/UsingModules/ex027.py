@@ -7,7 +7,7 @@ Ana
 Souza
 '''
 
-nome = str(input('Digite seu nome: '))
+nome = str(input('Digite seu nome: ')).strip()
 nomeDividido = nome.split()
 print('Seu primeiro nome separado é {}'.format(nomeDividido[0]))
 print('Seu ultimo nome separado é {}'.format(nomeDividido[-1]))

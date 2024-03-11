@@ -6,7 +6,8 @@ quantas letras ao tod. sem considerar espaços
 quantas letras em o primeiro nome
 '''
 
-nome = str(input('Qual o seu nome: '))
+nome = str(input('Qual o seu nome: ')).strip()
+
 print('Seu nome em maiúsculo fica {}'.format(nome.upper()))
 print('Seu nome em minúsculo fica {}'.format(nome.lower()))
 print('Seu nome tem {} letras'.format(len(nome.replace(" ", ""))))
